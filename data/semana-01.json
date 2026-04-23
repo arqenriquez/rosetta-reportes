@@ -1,0 +1,124 @@
+{
+  "proyecto": {
+    "nombre": "Rosetta · Etapa 3 · 6 Viviendas",
+    "nombre_corto": "Rosetta E3",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Group"
+  },
+  "semana": {
+    "numero": "01",
+    "periodo": "06 al 11 de abril, 2026",
+    "fecha_generacion": "11 abril 2026"
+  },
+  "avance_global": {
+    "programado_pct": 0.42,
+    "real_pct": 2.34,
+    "variacion_pct": 1.91,
+    "programado_mxn": 25629.89,
+    "real_mxn": 141527.98
+  },
+  "actividades": {
+    "realizadas": [
+      "Suministro y colocación de Malla elect. en Cimentación de L10 M-723",
+      "Suministro y colocación de Malla elect. en Cimentación de L11 M-723",
+      "Instalaciones Hidraulicas L21 M-722",
+      "Instalaciones Sanitarias L21 M-722",
+      "Instalaciones Hidraulicas L22 M-722",
+      "Instalaciones Sanitarias L22 M-722",
+      "Instalaciones Hidraulicas L23 M-722",
+      "Instalaciones Sanitarias L23 M-722",
+      "Preliminares y Plantilla en L09 M-723"
+    ],
+    "programadas": [
+      "Colado de losa de Cimentación en L22 M-723",
+      "Instalaciones Hidrualicas L09 M-723",
+      "Instalaciones Sanitarias L09 M-723"
+    ]
+  },
+  "problemas": [
+    {
+      "descripcion": "Autorización de los FPs ya ejecutados en amenidades (aún no llegan los folios)",
+      "estatus": "En Proceso",
+      "fecha_limite": "",
+      "responsable": "Casas Platino"
+    }
+  ],
+  "orden_lotes": ["10", "11", "22", "21", "23", "09"],
+  "lotes": {
+    "10": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 2.54,
+      "real": 3.99,
+      "variacion": 1.45,
+      "actividades": [
+        "Terminación de instalaciones",
+        "Liberación para colado"
+      ]
+    },
+    "11": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 0.00,
+      "real": 3.99,
+      "variacion": 3.99,
+      "actividades": [
+        "Canalizaciones eléctricas"
+      ]
+    },
+    "22": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "21": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "23": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "09": {
+      "modelo": "Osiris",
+      "mza": "723",
+      "programado": 0.00,
+      "real": 1.00,
+      "variacion": 1.00,
+      "actividades": []
+    }
+  },
+  "curva_financiera": {
+    "valor_total_mxn": 6057734.23,
+    "programado": [0, 0.45, 1.52, 3.2, 5.8, 9.5, 14, 19, 25, 31.5, 38, 44.5, 51, 57, 62.5, 67.5, 72, 76, 79.5, 82.5, 85, 87, 89, 91, 93, 94.5, 96, 97, 98, 98.5, 99, 99.5, 100],
+    "real": [0, 2.34]
+  },
+  "abastecimientos": {
+    "entregados": [],
+    "programados": [
+      {
+        "concepto": "Concreto para Losa de Cimentación L-10 M-723",
+        "fecha_requerida": "16-abr",
+        "estatus": "En cotización",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Material de Plomería (Hidraulico y Sanitario) L-09 M-723",
+        "fecha_requerida": "14-abr",
+        "estatus": "Solicitado",
+        "importancia": "Media"
+      }
+    ]
+  }
+}

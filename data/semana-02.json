@@ -1,0 +1,150 @@
+{
+  "proyecto": {
+    "nombre": "Rosetta · Etapa 3 · 6 Viviendas",
+    "nombre_corto": "Rosetta E3",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Group"
+  },
+  "semana": {
+    "numero": "02",
+    "periodo": "13 al 19 de abril, 2026",
+    "fecha_generacion": "20 abril 2026"
+  },
+  "avance_global": {
+    "programado_pct": 1.52,
+    "real_pct": 2.68,
+    "variacion_pct": 1.17,
+    "programado_mxn": 91924.04,
+    "real_mxn": 162630.35
+  },
+  "actividades": {
+    "realizadas": [
+      "Colado de losa de cimentación en Lote 10, Mza 723",
+      "Preparaciones e instalaciones en Lote 11, Mza 723"
+    ],
+    "programadas": [
+      "Programar colado de losa de cimentación L11, Mza 723",
+      "Suministrar tabique rojo para muros de L10, Mza 723",
+      "Reubicar cimbra metálica desde L10 Mza 723 al Lote L21, Mza 722",
+      "Suministrar acero de cimentación para L21, Mza 722",
+      "Instalaciones hidráulicas y sanitarias en L09, Mza 723"
+    ]
+  },
+  "problemas": [
+    {
+      "descripcion": "Autorización de los FPs ya ejecutados en amenidades (aún no llegan los folios)",
+      "estatus": "Tramitado",
+      "fecha_limite": "",
+      "responsable": "Casas Platino"
+    },
+    {
+      "descripcion": "Los m³ de concreto en cimentación de proyecto no corresponden a la realidad. Se debe actualizar en base a medidas de sitio.",
+      "estatus": "Observado",
+      "fecha_limite": "",
+      "responsable": "Casas Platino / Metta"
+    }
+  ],
+  "orden_lotes": ["10", "11", "22", "21", "23", "09"],
+  "lotes": {
+    "10": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 6.57,
+      "real": 6.08,
+      "variacion": -0.49,
+      "actividades": [
+        "Colado de losa de cimentación",
+        "Próxima semana: trazar para muros y solicitar a la desarrolladora el tabique"
+      ]
+    },
+    "11": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 2.40,
+      "real": 3.99,
+      "variacion": 1.59,
+      "actividades": [
+        "Se liberaron instalaciones",
+        "Lote listo para colar próxima semana"
+      ]
+    },
+    "22": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "21": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": [
+        "Se liberó una cimbra metálica, próxima semana se debería estar moviendo una cimbra a este lote",
+        "Se debería suministrar acero para este lote"
+      ]
+    },
+    "23": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "09": {
+      "modelo": "Osiris",
+      "mza": "723",
+      "programado": 0.00,
+      "real": 1.00,
+      "variacion": 1.00,
+      "actividades": [
+        "Trabajos preliminares en instalaciones"
+      ]
+    }
+  },
+  "curva_financiera": {
+    "valor_total_mxn": 6050000,
+    "programado": [0, 0.45, 1.52, 3.2, 5.8, 9.5, 14, 19, 25, 31.5, 38, 44.5, 51, 57, 62.5, 67.5, 72, 76, 79.5, 82.5, 85, 87, 89, 91, 93, 94.5, 96, 97, 98, 98.5, 99, 99.5, 100],
+    "real": [0, 0.65, 2.68]
+  },
+  "abastecimientos": {
+    "entregados": [
+      {
+        "concepto": "Concreto para losa de cimentación L-10 M-723",
+        "fecha_requerida": "16-abr",
+        "estatus": "Suministrado",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Material de plomería (hidráulico y sanitario) L-09 M-723",
+        "fecha_requerida": "14-abr",
+        "estatus": "Suministrado",
+        "importancia": "Media"
+      }
+    ],
+    "programados": [
+      {
+        "concepto": "Requerimiento de tabique para muros de Lote 10 Mza 723",
+        "fecha_requerida": "21-abr",
+        "estatus": "En proceso",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Acero para cimentación de Lote 22 Mza 722",
+        "fecha_requerida": "21-abr",
+        "estatus": "Solicitado",
+        "importancia": "Media"
+      },
+      {
+        "concepto": "Material de plomería para Lote 09 Mza 723",
+        "fecha_requerida": "21-abr",
+        "estatus": "Solicitado",
+        "importancia": "Baja"
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "proyecto": {
+    "nombre": "Rosetta Etapa 3",
+    "nombre_corto": "Rosetta E3",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Group",
+    "total_semanas": 32,
+    "valor_total_mxn": 6050000,
+    "viviendas": 6
+  },
+  "semanas_publicadas": [
+    "01",
+    "02"
+  ]
+}

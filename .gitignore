@@ -1,0 +1,19 @@
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Backups locales
+*.bak
+*.backup
+
+# Archivos temporales
+*.tmp
