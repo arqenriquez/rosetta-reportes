@@ -1,0 +1,148 @@
+{
+  "proyecto": {
+    "nombre": "Rosetta · Etapa 3 · 6 Viviendas",
+    "nombre_corto": "Rosetta E3",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Group"
+  },
+  "semana": {
+    "numero": "03",
+    "periodo": "20 al 26 de abril, 2026",
+    "fecha_generacion": "27 abril 2026"
+  },
+  "avance_global": {
+    "programado_pct": 3.01,
+    "real_pct": 3.80,
+    "variacion_pct": 0.79,
+    "programado_mxn": 182359.18,
+    "real_mxn": 230083.73
+  },
+  "actividades": {
+    "realizadas": [
+      "Colado de losa de cimentación en L11 M-723",
+      "Inicio de muros de tabique parcial 1 en L11 M-723",
+      "Inicio de colado de castillos en muros parcial 1 en L11 M-723",
+      "Inicio de muros de tabique parcial 2 (altura cerramiento) en L11 M-723",
+      "Se retiró cimbra metálica desde L10 M-723 para lote L21 M-722",
+      "Se suministró y habilitó acero de cimentación para L21 M-722",
+      "Reubicación de cimbra metálica desde L11 M-723 al lote L22 M-722",
+      "Se realizaron instalaciones hidráulicas de cimentación en L09 M-723"
+    ],
+    "programadas": [
+      "Programar colado de losa de cimentación L21 M-722",
+      "Suministrar tabique rojo para muros de L11 M-723",
+      "Suministrar acero de cimentación para L22 M-722"
+    ]
+  },
+  "problemas": [
+    {
+      "descripcion": "Autorización de los FPs ya ejecutados en amenidades (aún no llegan los folios)",
+      "estatus": "Tramitado",
+      "fecha_limite": "Retrasado",
+      "responsable": "Casas Platino"
+    },
+    {
+      "descripcion": "Los m³ de concreto en cimentación de proyecto no corresponden a la realidad. Se debe actualizar en base a medidas de sitio.",
+      "estatus": "Observado",
+      "fecha_limite": "",
+      "responsable": "Casas Platino / Metta"
+    }
+  ],
+  "orden_lotes": ["10", "11", "22", "21", "23", "09"],
+  "lotes": {
+    "10": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 8.96,
+      "real": 10.22,
+      "variacion": 1.26,
+      "actividades": [
+        "Pegado de ladrillos en Muros Parcial 1",
+        "Colado de castillos en Muros Parcial 1",
+        "Pegado de ladrillo en Muros Parcial 2"
+      ]
+    },
+    "11": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 6.57,
+      "real": 6.22,
+      "variacion": -0.34,
+      "actividades": [
+        "Colado de losa de cimentación"
+      ]
+    },
+    "22": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 2.55,
+      "real": 1.98,
+      "variacion": -0.56,
+      "actividades": []
+    },
+    "21": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": [
+        "Se colocó cimbra perimetral",
+        "Se suministró el acero"
+      ]
+    },
+    "23": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "09": {
+      "modelo": "Osiris",
+      "mza": "723",
+      "programado": 0.00,
+      "real": 1.00,
+      "variacion": 1.00,
+      "actividades": [
+        "Se trabajó en instalaciones hidráulicas de losa de cimentación"
+      ]
+    }
+  },
+  "curva_financiera": {
+    "valor_total_mxn": 6050000,
+    "programado": [0, 0.45, 1.52, 3.2, 5.8, 9.5, 14, 19, 25, 31.5, 38, 44.5, 51, 57, 62.5, 67.5, 72, 76, 79.5, 82.5, 85, 87, 89, 91, 93, 94.5, 96, 97, 98, 98.5, 99, 99.5, 100],
+    "real": [0, 0.65, 2.68, 3.80]
+  },
+  "abastecimientos": {
+    "entregados": [
+      {
+        "concepto": "Concreto para losa de cimentación L-10 M-723",
+        "fecha_requerida": "24-abr",
+        "estatus": "Suministrado",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Tabique para muros de L-10 M-723",
+        "fecha_requerida": "20-abr",
+        "estatus": "Suministrado",
+        "importancia": "Alta"
+      }
+    ],
+    "programados": [
+      {
+        "concepto": "Requerimiento de tabique para muros de Lote 11 Mza 723",
+        "fecha_requerida": "27-abr",
+        "estatus": "En proceso",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Acero para cimentación de Lote 22 Mza 722",
+        "fecha_requerida": "28-abr",
+        "estatus": "Solicitado",
+        "importancia": "Media"
+      }
+    ]
+  }
+}
