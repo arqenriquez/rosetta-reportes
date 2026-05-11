@@ -931,6 +931,8 @@ footer .brand span { color: var(--accent); }
 }
 .week-card-stat .val { font-family: 'JetBrains Mono', monospace; font-size: 0.8rem; font-weight: 600; color: var(--ink); }
 .week-card-stat .val.accent { color: var(--accent); }
+.week-card-stat .val.positive { color: var(--green); }
+.week-card-stat .val.negative { color: var(--red); }
 .week-card-arrow {
   position: absolute;
   bottom: 1rem;

@@ -1,0 +1,148 @@
+{
+  "proyecto": {
+    "nombre": "Rosetta · Etapa 3 · 6 Viviendas",
+    "nombre_corto": "Rosetta E3",
+    "ubicacion": "Hermosillo, Sonora",
+    "gerencia": "Metta Group"
+  },
+  "semana": {
+    "numero": "04",
+    "periodo": "27 de abril al 02 de mayo, 2026",
+    "fecha_generacion": "03 mayo 2026"
+  },
+  "avance_global": {
+    "programado_pct": 5.08,
+    "real_pct": 5.49,
+    "variacion_pct": 0.40,
+    "programado_mxn": 307929.86,
+    "real_mxn": 332400.66
+  },
+  "actividades": {
+    "realizadas": [
+      "Inicio de pegado de tabique en muros L11 M-723",
+      "Acero y cimbra metálica en Lote 21 M-722",
+      "Acero completo en losa de cimentación en Lote 22 M-722",
+      "Cimbra metálica perimetral en losa de cimentación en Lote 22 M-722"
+    ],
+    "programadas": [
+      "Programar colado de losa de cimentación L21 M-722",
+      "Programar colado de losa de cimentación L22 M-722",
+      "Solicitar cimbra de entrepiso para Lote 10 M-723",
+      "Inicio de acero para escalera en Lote 10 M-723",
+      "Inicio de acero para escalera en Lote 11 M-723"
+    ]
+  },
+  "problemas": [
+    {
+      "descripcion": "Los m³ de concreto en cimentación de proyecto no corresponden a la realidad. Se debe actualizar en base a medidas de sitio.",
+      "estatus": "Observado",
+      "fecha_limite": "",
+      "responsable": "Casas Platino / Metta"
+    }
+  ],
+  "orden_lotes": ["10", "11", "22", "21", "23", "09"],
+  "lotes": {
+    "10": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 12.44,
+      "real": 11.85,
+      "variacion": -0.59,
+      "actividades": [
+        "Pegado de ladrillos Muros Parcial 2 (cerramiento)",
+        "Colado de castillos en Muros Parcial 1",
+        "Colado de castillos en Muros Parcial 2"
+      ]
+    },
+    "11": {
+      "modelo": "Horus",
+      "mza": "723",
+      "programado": 8.96,
+      "real": 10.83,
+      "variacion": 1.87,
+      "actividades": [
+        "Muros Parcial 1",
+        "Colado de castillos Parcial 1",
+        "Muros Parcial 2"
+      ]
+    },
+    "22": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 6.57,
+      "real": 3.99,
+      "variacion": -2.58,
+      "actividades": []
+    },
+    "21": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 2.55,
+      "real": 3.57,
+      "variacion": 1.03,
+      "actividades": [
+        "Se colocó cimbra perimetral",
+        "Se suministró el acero"
+      ]
+    },
+    "23": {
+      "modelo": "Horus",
+      "mza": "722",
+      "programado": 0.00,
+      "real": 1.68,
+      "variacion": 1.68,
+      "actividades": []
+    },
+    "09": {
+      "modelo": "Osiris",
+      "mza": "723",
+      "programado": 0.00,
+      "real": 1.00,
+      "variacion": 1.00,
+      "actividades": [
+        "Se trabajó en instalaciones hidráulicas de losa de cimentación"
+      ]
+    }
+  },
+  "curva_financiera": {
+    "valor_total_mxn": 6050000,
+    "programado": [0, 0.45, 1.52, 3.2, 5.8, 9.5, 14, 19, 25, 31.5, 38, 44.5, 51, 57, 62.5, 67.5, 72, 76, 79.5, 82.5, 85, 87, 89, 91, 93, 94.5, 96, 97, 98, 98.5, 99, 99.5, 100],
+    "real": [0, 0.65, 2.68, 3.80, 5.49]
+  },
+  "abastecimientos": {
+    "entregados": [
+      {
+        "concepto": "Requerimiento de tabique para muros de Lote 11 Mza 723",
+        "fecha_requerida": "27-abr",
+        "estatus": "Suministrado",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Acero para cimentación de Lote 22 Mza 722",
+        "fecha_requerida": "28-abr",
+        "estatus": "Suministrado",
+        "importancia": "Media"
+      }
+    ],
+    "programados": [
+      {
+        "concepto": "Acero para cimentación de Lote 22 Mza 722",
+        "fecha_requerida": "5-may",
+        "estatus": "Solicitado",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Madera (Triplays) para cimbra de losa de entrepiso Lote 10 Mza 723",
+        "fecha_requerida": "5-may",
+        "estatus": "Solicitado",
+        "importancia": "Alta"
+      },
+      {
+        "concepto": "Acero para escalera Lote 10 Mza 723",
+        "fecha_requerida": "5-may",
+        "estatus": "Solicitado",
+        "importancia": "Media"
+      }
+    ]
+  }
+}

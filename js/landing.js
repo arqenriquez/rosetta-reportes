@@ -65,7 +65,7 @@ async function init() {
     const g = data.avance_global;
     const esUltima = i === semanas.length - 1;
     const variacionSign = g.variacion_pct >= 0 ? '+' : '';
-    const variacionClass = g.variacion_pct >= 0 ? 'accent' : 'negative';
+    const variacionClass = g.variacion_pct >= 0 ? 'positive' : 'negative';
 
     const card = document.createElement('a');
     card.className = 'week-card fade-up';
