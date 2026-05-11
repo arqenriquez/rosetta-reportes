@@ -21,7 +21,7 @@ function obtenerNumSemana() {
 // ============ CARGAR DATOS ============
 async function cargarReporte(numSemana) {
   try {
-    const response = await fetch(`data/semana-${numSemana}.json`);
+    const response = await fetch(`data/semana-${numSemana}.json`, { cache: 'no-cache' });
     if (!response.ok) throw new Error('Reporte no encontrado');
     return await response.json();
   } catch (error) {

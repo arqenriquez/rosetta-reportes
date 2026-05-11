@@ -8,7 +8,7 @@ const fmt = (n, d = 2) => Number(n).toFixed(d);
 
 async function cargarIndice() {
   try {
-    const response = await fetch('data/index.json');
+    const response = await fetch('data/index.json', { cache: 'no-cache' });
     if (!response.ok) throw new Error('No se pudo cargar el índice');
     return await response.json();
   } catch (error) {
@@ -19,7 +19,7 @@ async function cargarIndice() {
 
 async function cargarSemana(num) {
   try {
-    const response = await fetch(`data/semana-${num}.json`);
+    const response = await fetch(`data/semana-${num}.json`, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`Semana ${num} no encontrada`);
     return await response.json();
   } catch (error) {
